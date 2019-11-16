@@ -2206,7 +2206,6 @@
         "allValue": null,
         "current": {},
         "datasource": "Prometheus",
-        "definition": "label_values(node_uname_info{job=~\"$job\"}, nodename)",
         "hide": 0,
         "includeAll": true,
         "label": "Host",
@@ -2351,7 +2350,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "1  Node Exporter for Prometheus Dashboard English Version  UPDATE 1102",
+  "title": "Monitoring Dashboard",
   "uid": "hb7fSE0Zz",
   "version": 13
 }
