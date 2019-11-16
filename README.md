@@ -1,7 +1,3 @@
-# balena-monitoring
-prometheus and node exporter on balena, and grafana for monitoring state of sensors
-
-
 # Monitor your Node using Node-exporter , Prometheus and Grafana on Balena
 
 ## requirements :
@@ -20,8 +16,10 @@ You also need to change the IP address in ```url: http://192.168.1.120:9090 ``` 
 
 3) ``` git clone https://github.com/mounaBoo/balena-dash.git ```
 
-4) ``` git remote add balena username@git.balena-cloud.com:userbalenacloud.git ```
+5) ``` git remote add balena username@git.balena-cloud.com:userbalenacloud.git ```
 
-5) ``` git push balena master ```  or ``` git push -f balena master ```
+6) ``` git push balena master ```  or ``` git push -f balena master ```
 
 Enjoy the visualizations !
+
+
